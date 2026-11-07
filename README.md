@@ -1,0 +1,3 @@
+# Playwright screenshot reporter
+
+WIP

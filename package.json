@@ -1,0 +1,24 @@
+{
+  "name": "playwright-screenshot-reporter",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A Playwright reporter for smooth screenshot reviews.",
+  "keywords": [
+    "playwright",
+    "test"
+  ],
+  "license": "MIT",
+  "author": "Jens Rømer Hesselbjerg",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2"
+  },
+  "peerDependencies": {
+    "@playwright/test": "^1.40"
+  }
+}
