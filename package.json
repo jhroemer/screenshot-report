@@ -11,11 +11,14 @@
   "author": "Jens Rømer Hesselbjerg",
   "type": "module",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint"
   },
   "devDependencies": {
     "@playwright/test": "1.65.0",
     "@types/node": "26.6.6",
+    "oxlint": "1.92.0",
+    "oxlint-tsgolint": "7.0.2006",
     "typescript": "7.0.2"
   },
   "peerDependencies": {
