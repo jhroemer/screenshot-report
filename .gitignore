@@ -3,3 +3,4 @@ test-results/
 playwright-report/
 /lib/
 screenshot-report.html
+test-project/tests/__screenshots__/

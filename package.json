@@ -15,8 +15,7 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "format:check": "oxfmt --check",
-    "test": "playwright test",
-    "test:project": "playwright test -c test-project"
+    "test": "playwright test"
   },
   "devDependencies": {
     "@playwright/test": "1.65.0",

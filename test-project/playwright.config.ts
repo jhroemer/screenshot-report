@@ -4,9 +4,10 @@ export default defineConfig({
   testDir: "tests",
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
+  retries: 1,
   globalTimeout: 60 * 60 * 1000,
   reporter: "../src/reporter.ts",
+  snapshotPathTemplate: "{testDir}/__screenshots__/{arg}{ext}",
   use: {
     trace: "on-first-retry",
   },
