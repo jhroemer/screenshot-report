@@ -6,7 +6,7 @@
     "types": ["node"],
     "declaration": true,
     "outDir": "./lib",
-    "rootDir": "./src",
+    "rootDir": ".",
     "isolatedModules": true,
     "isolatedDeclarations": false,
     "erasableSyntaxOnly": true,
@@ -17,5 +17,5 @@
     "skipLibCheck": true,
     "sourceMap": false
   },
-  "include": ["src"]
+  "include": ["src", "tests", "test-project", "playwright.config.ts"]
 }
